@@ -1,0 +1,884 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#6c4cf1">
+
+    <meta name="description"
+        content="Shop smart with ZyronaMart. Discover trending electronics, fashion, home essentials, beauty products and amazing deals.">
+
+    <title>ZyronaMart — Shop Smart, Live Better</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= ANNOUNCEMENT BAR ================= -->
+
+    <div class="announcement">
+        ✨ MEGA SALE IS LIVE — EXTRA 10% OFF ON ORDERS ABOVE ₹2,999
+        <span>USE CODE: ZYRO10</span>
+    </div>
+
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="site-header">
+
+        <!-- Brand Logo -->
+        <a class="brand" href="#" aria-label="ZyronaMart Home">
+
+            <span class="brand-mark">Z</span>
+
+            <span>
+                Zyrona<span class="brand-light">Mart</span>
+                <small>SHOP SMART. LIVE BETTER.</small>
+            </span>
+
+        </a>
+
+
+        <!-- Search Bar -->
+        <form class="search-wrap" id="searchForm">
+
+            <span aria-hidden="true">⌕</span>
+
+            <input
+                type="search"
+                id="searchInput"
+                placeholder="Search products, brands and more..."
+                aria-label="Search products">
+
+            <button type="submit">
+                Search
+            </button>
+
+        </form>
+
+
+        <!-- Header Actions -->
+        <div class="header-actions">
+
+            <button
+                class="icon-btn"
+                id="themeToggle"
+                title="Change theme"
+                aria-label="Change theme">
+
+                ☾
+
+            </button>
+
+            <button
+                class="cart-top"
+                id="openCart"
+                aria-label="Open shopping cart">
+
+                <span>🛍</span>
+                <span>Cart</span>
+                <b id="cartCount">0</b>
+
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <!-- ================= CATEGORY NAVIGATION ================= -->
+
+    <nav class="category-nav" id="categoryNav" aria-label="Product categories">
+
+        <button class="nav-link active" data-category="All">
+            All Products
+        </button>
+
+        <button class="nav-link" data-category="Electronics">
+            Electronics
+        </button>
+
+        <button class="nav-link" data-category="Fashion">
+            Fashion
+        </button>
+
+        <button class="nav-link" data-category="Home">
+            Home & Living
+        </button>
+
+        <button class="nav-link" data-category="Beauty">
+            Beauty
+        </button>
+
+        <button class="nav-link" data-category="Accessories">
+            Accessories
+        </button>
+
+        <button class="nav-link" data-category="Sports">
+            Sports
+        </button>
+
+    </nav>
+
+
+    <!-- ================= MAIN CONTENT ================= -->
+
+    <main>
+
+
+        <!-- ================= HERO SECTION ================= -->
+
+        <section class="hero">
+
+            <div class="hero-copy">
+
+                <div class="eyebrow">
+                    <span class="live-dot"></span>
+                    THE BIGGEST SALE OF THE SEASON
+                </div>
+
+                <h1>
+                    Good things.<br>
+                    <em>Better prices.</em>
+                </h1>
+
+                <p>
+                    Discover everyday favourites, trending finds and
+                    irresistible deals — all in one place.
+                </p>
+
+
+                <!-- Hero Buttons -->
+                <div class="hero-buttons">
+
+                    <a href="#shop" class="primary-btn">
+                        Shop collection
+                        <span>↗</span>
+                    </a>
+
+                    <span class="trust-note">
+                        ✓ Secure shopping &nbsp; ✓ Easy ordering
+                    </span>
+
+                </div>
+
+
+                <!-- Hero Statistics -->
+                <div class="hero-stats">
+
+                    <div>
+                        <b>80+</b>
+                        <small>Curated products</small>
+                    </div>
+
+                    <div>
+                        <b>Up to 60%</b>
+                        <small>Sale discounts</small>
+                    </div>
+
+                    <div>
+                        <b>24/7</b>
+                        <small>WhatsApp support</small>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Hero Artwork -->
+            <div class="hero-art">
+
+                <div class="sale-sticker">
+                    MEGA<br>
+                    <strong>SALE</strong>
+                    <small>UP TO 60% OFF</small>
+                </div>
+
+                <div class="hero-orb orb-one"></div>
+                <div class="hero-orb orb-two"></div>
+
+                <div class="hero-product p-one">🎧</div>
+                <div class="hero-product p-two">👟</div>
+                <div class="hero-product p-three">⌚</div>
+
+                <div class="hero-caption">
+                    <span>✦ TRENDING NOW</span>
+                    <b>Your next favourite is here.</b>
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= BENEFITS SECTION ================= -->
+
+        <section class="benefits">
+
+            <div>
+                <span>🚚</span>
+                <p>
+                    <b>Free delivery</b>
+                    <small>On orders above ₹1,499</small>
+                </p>
+            </div>
+
+            <div>
+                <span>🔒</span>
+                <p>
+                    <b>Safe & secure</b>
+                    <small>Order directly on WhatsApp</small>
+                </p>
+            </div>
+
+            <div>
+                <span>💬</span>
+                <p>
+                    <b>Quick support</b>
+                    <small>We're just a message away</small>
+                </p>
+            </div>
+
+            <div>
+                <span>🎁</span>
+                <p>
+                    <b>Special offers</b>
+                    <small>Fresh deals every week</small>
+                </p>
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= DEAL SECTION ================= -->
+
+        <section class="deal-strip">
+
+            <div>
+
+                <span class="deal-label">
+                    LIMITED TIME DEAL
+                </span>
+
+                <h2>
+                    Extra savings are waiting for you.
+                </h2>
+
+                <p>
+                    Use <b>ZYRO10</b> for 10% off on orders above ₹2,999.
+                </p>
+
+            </div>
+
+
+            <!-- Countdown Timer -->
+            <div class="countdown">
+
+                <small>OFFER ENDS IN</small>
+
+                <div>
+                    <b id="hours">23</b>
+                    <i>:</i>
+                    <b id="minutes">59</b>
+                    <i>:</i>
+                    <b id="seconds">59</b>
+                </div>
+
+                <small>HRS &nbsp; MIN &nbsp; SEC</small>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= SHOP SECTION ================= -->
+
+        <section class="shop-section" id="shop">
+
+
+            <!-- Section Heading -->
+            <div class="section-heading">
+
+                <div>
+
+                    <span class="eyebrow purple">
+                        HANDPICKED FOR YOU
+                    </span>
+
+                    <h2>
+                        Explore our collection
+                    </h2>
+
+                    <p>
+                        Find something you'll love today.
+                    </p>
+
+                </div>
+
+
+                <!-- Shop Tools -->
+                <div class="shop-tools">
+
+                    <span id="resultCount">
+                        36 products
+                    </span>
+
+                    <select id="sortSelect" aria-label="Sort products">
+
+                        <option value="featured">
+                            Sort: Featured
+                        </option>
+
+                        <option value="low">
+                            Price: Low to High
+                        </option>
+
+                        <option value="high">
+                            Price: High to Low
+                        </option>
+
+                        <option value="rating">
+                            Top Rated
+                        </option>
+
+                    </select>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- Product Category Filters -->
+            <div class="filter-chips" id="filterChips">
+
+                <button class="chip active" data-category="All">
+                    All
+                </button>
+
+                <button class="chip" data-category="Electronics">
+                    Electronics
+                </button>
+
+                <button class="chip" data-category="Fashion">
+                    Fashion
+                </button>
+
+                <button class="chip" data-category="Home">
+                    Home
+                </button>
+
+                <button class="chip" data-category="Beauty">
+                    Beauty
+                </button>
+
+                <button class="chip" data-category="Accessories">
+                    Accessories
+                </button>
+
+                <button class="chip" data-category="Sports">
+                    Sports
+                </button>
+
+            </div>
+
+
+
+            <!-- Dynamic Product Grid -->
+            <div class="product-grid" id="productGrid"></div>
+
+
+
+            <!-- Empty Search Results -->
+            <div class="empty-state hidden" id="emptyState">
+
+                <span>🔎</span>
+
+                <h3>No products found</h3>
+
+                <p>
+                    Try another search or category.
+                </p>
+
+                <button class="primary-btn" id="clearFilters">
+                    Show all products
+                </button>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= NEWSLETTER SECTION ================= -->
+
+        <section class="newsletter">
+
+            <div>
+
+                <span class="eyebrow">
+                    GOOD DEALS, STRAIGHT TO YOU
+                </span>
+
+                <h2>
+                    Stay in the loop.
+                </h2>
+
+                <p>
+                    Follow us on WhatsApp for new arrivals
+                    and exclusive offers.
+                </p>
+
+            </div>
+
+            <a
+                class="whatsapp-btn"
+                id="newsletterWhatsApp"
+                href="#"
+                target="_blank"
+                rel="noopener">
+
+                Chat with us on WhatsApp ↗
+
+            </a>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <a class="brand footer-brand" href="#">
+
+            <span class="brand-mark">Z</span>
+
+            <span>
+                Zyrona<span class="brand-light">Mart</span>
+                <small>SHOP SMART. LIVE BETTER.</small>
+            </span>
+
+        </a>
+
+
+        <p>
+            © <span id="year"></span>
+            ZyronaMart. All rights reserved.
+        </p>
+
+
+        <div>
+
+            <a href="#shop">
+                Shop
+            </a>
+
+            <a href="#" id="footerWhatsApp">
+                Contact
+            </a>
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- ================= SHOPPING CART ================= -->
+
+    <div class="overlay" id="cartOverlay"></div>
+
+
+    <aside
+        class="cart-drawer"
+        id="cartDrawer"
+        aria-label="Shopping cart">
+
+        <!-- Cart Header -->
+        <div class="drawer-head">
+
+            <div>
+
+                <span class="eyebrow purple">
+                    YOUR BAG
+                </span>
+
+                <h2>
+                    Shopping cart
+                    <span id="drawerCount">(0)</span>
+                </h2>
+
+            </div>
+
+            <button
+                class="close-btn"
+                id="closeCart"
+                aria-label="Close cart">
+
+                ×
+
+            </button>
+
+        </div>
+
+
+
+        <!-- Cart Items -->
+        <div class="cart-items" id="cartItems">
+
+            <div class="cart-empty">
+
+                <span>🛍️</span>
+
+                <h3>Your cart is empty</h3>
+
+                <p>
+                    Looks like you haven't added anything yet.
+                </p>
+
+                <button class="primary-btn" id="continueShopping">
+                    Explore products
+                </button>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- Cart Bottom / Billing -->
+        <div class="cart-bottom hidden" id="cartBottom">
+
+
+            <!-- Coupon -->
+            <div class="coupon-row">
+
+                <input
+                    id="couponInput"
+                    placeholder="Coupon code (try ZYRO10)">
+
+                <button id="applyCoupon">
+                    Apply
+                </button>
+
+            </div>
+
+            <p class="coupon-message" id="couponMessage"></p>
+
+
+
+            <!-- Price Details -->
+            <div class="bill-line">
+                <span>Subtotal</span>
+                <b id="subtotal">₹0</b>
+            </div>
+
+            <div class="bill-line">
+                <span>Delivery</span>
+                <b id="delivery">₹0</b>
+            </div>
+
+            <div class="bill-line discount-line">
+                <span>Discount</span>
+                <b id="discount">−₹0</b>
+            </div>
+
+            <div class="bill-line total-line">
+                <span>Total</span>
+                <b id="total">₹0</b>
+            </div>
+
+
+
+            <!-- Checkout Button -->
+            <button class="checkout-btn" id="checkoutBtn">
+
+                Proceed to checkout
+                <span>→</span>
+
+            </button>
+
+            <small class="secure-note">
+                🔒 Your order will be sent securely through WhatsApp.
+            </small>
+
+        </div>
+
+    </aside>
+
+
+
+    <!-- ================= PRODUCT DETAILS MODAL ================= -->
+
+    <div class="modal-backdrop" id="productModal">
+
+        <div class="product-modal modal-box">
+
+            <button
+                class="close-btn modal-close"
+                data-close="productModal"
+                aria-label="Close product details">
+
+                ×
+
+            </button>
+
+            <div id="productModalContent"></div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- ================= CHECKOUT MODAL ================= -->
+
+    <div class="modal-backdrop" id="checkoutModal">
+
+        <div class="checkout-modal modal-box">
+
+            <button
+                class="close-btn modal-close"
+                data-close="checkoutModal"
+                aria-label="Close checkout">
+
+                ×
+
+            </button>
+
+
+            <span class="eyebrow purple">
+                ALMOST THERE
+            </span>
+
+            <h2>
+                Delivery details
+            </h2>
+
+            <p class="modal-subtitle">
+                Enter your details. We'll open WhatsApp
+                with your complete order.
+            </p>
+
+
+
+            <!-- Checkout Form -->
+            <form id="checkoutForm">
+
+
+                <!-- Customer Name -->
+                <label>
+                    Full name
+
+                    <input
+                        type="text"
+                        name="name"
+                        required
+                        placeholder="Your name">
+                </label>
+
+
+
+                <!-- Mobile Number -->
+                <label>
+                    Mobile number
+
+                    <input
+                        type="tel"
+                        name="phone"
+                        required
+                        inputmode="numeric"
+                        pattern="[0-9]{10}"
+                        maxlength="10"
+                        placeholder="10-digit mobile number">
+                </label>
+
+
+
+                <!-- Delivery Address -->
+                <label>
+                    Delivery address
+
+                    <textarea
+                        name="address"
+                        required
+                        rows="3"
+                        placeholder="House no., street, area, city, PIN code"></textarea>
+                </label>
+
+
+
+                <!-- Payment Preference -->
+                <label>
+                    Payment preference
+
+                    <select name="payment">
+
+                        <option>
+                            Cash on Delivery (confirm with seller)
+                        </option>
+
+                        <option>
+                            UPI (confirm with seller)
+                        </option>
+
+                    </select>
+
+                </label>
+
+
+
+                <!-- Checkout Total -->
+                <div class="checkout-total">
+
+                    <span>Order total</span>
+
+                    <b id="checkoutTotal">₹0</b>
+
+                </div>
+
+
+
+                <!-- Submit Order -->
+                <button class="checkout-btn" type="submit">
+
+                    Send order on WhatsApp ↗
+
+                </button>
+
+
+                <small class="secure-note">
+                    No online payment is collected on this demo website.
+                </small>
+
+            </form>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- ================= WELCOME PROMO MODAL ================= -->
+
+    <div class="modal-backdrop promo-backdrop" id="promoModal">
+
+        <div class="promo-modal">
+
+
+            <!-- Close Button -->
+            <button
+                class="close-btn promo-close"
+                data-close="promoModal"
+                aria-label="Close offer">
+
+                ×
+
+            </button>
+
+
+
+            <!-- Promo Artwork -->
+            <div class="promo-art">
+
+                <span>🎁</span>
+
+                <b>
+                    WELCOME<br>
+                    OFFER
+                </b>
+
+            </div>
+
+
+
+            <!-- Promo Content -->
+            <div class="promo-content">
+
+                <span class="eyebrow purple">
+                    A LITTLE GIFT FOR YOU
+                </span>
+
+                <h2>
+                    Hey, welcome<br>
+                    to ZyronaMart!
+                </h2>
+
+                <p>
+                    Enjoy an extra <strong>10% OFF</strong>
+                    on orders above ₹2,999.
+                </p>
+
+
+
+                <!-- Coupon Code -->
+                <div class="promo-code">
+
+                    <span>YOUR CODE</span>
+
+                    <b>ZYRO10</b>
+
+                    <button id="copyCoupon">
+                        Copy
+                    </button>
+
+                </div>
+
+
+
+                <!-- Shop Button -->
+                <button class="primary-btn" id="shopPromo">
+
+                    Start shopping
+                    <span>↗</span>
+
+                </button>
+
+
+                <small>
+                    Limited-time offer. Terms may apply.
+                </small>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- ================= TOAST NOTIFICATION ================= -->
+
+    <div
+        class="toast"
+        id="toast"
+        role="status"
+        aria-live="polite">
+    </div>
+
+
+
+    <!-- ================= JAVASCRIPT ================= -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>
